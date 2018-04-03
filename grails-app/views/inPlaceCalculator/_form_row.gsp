@@ -15,5 +15,6 @@
          required="true" min="1.0" max="6.0" id="${name}"
          class="${hasError(calculatorInstance, name) ? 'error' : ''}"
          title="${g.message(error: findError(calculatorInstance, name)) }"
+         onchange="validate(this)"
   />
 </div>

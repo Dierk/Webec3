@@ -57,8 +57,8 @@ class InPlaceCalculatorSpec extends GebSpec {
         when: "we enter some invalid value _without_ submitting"
             $("form").en = 0
         then: "the in-place JS logic should kick in"
-//            $("#en").attr('class') == "error"
-//            $("#en").focused
+            $("#en").attr('class') == "error"
+            $("#en").focused
     }
 
 
