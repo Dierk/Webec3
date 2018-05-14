@@ -3,6 +3,8 @@ package mvc
 class UrlMappings {
 
     static mappings = {
+
+        "/bookings"(resources: "booking")
         "/$controller/$action?/$id?(.$format)?"{
             constraints {
                 // apply constraints here

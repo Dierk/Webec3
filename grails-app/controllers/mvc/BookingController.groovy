@@ -16,6 +16,6 @@ class BookingController {
         Room one    = Room.findByDescription("6.2H03");
         def bookers = Booking.findAllByRoom(one)*.booker.unique()
 
-        render text: bookers
+        respond bookers
     }
 }

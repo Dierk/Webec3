@@ -1,5 +1,8 @@
 package mvc
 
+import grails.rest.Resource
+
+@Resource(uri="/bookings")
 class Booking {
 
     public static final String AM  = "Vormittag"
