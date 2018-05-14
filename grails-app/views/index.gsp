@@ -22,6 +22,7 @@
                 <li><a href="#">JVM version: ${System.getProperty('java.version')}</a></li>
                 <li role="separator" class="divider"></li>
                 <li><a href="#">Reloading active: ${grails.util.Environment.reloadingAgentEnabled}</a></li>
+                <li><a href="#">IP Address: ${ java.net.InetAddress.localHost }</a></li>
             </ul>
         </li>
         <li class="dropdown">
