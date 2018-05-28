@@ -1,4 +1,6 @@
 ---
+server:
+    port: 9094
 grails:
     profile: web
     codegen:
