@@ -10,5 +10,6 @@ class Person {
     }
 
     static constraints = {
+        firstName inList:["Dierk","Dieter","Jan"]
     }
 }
